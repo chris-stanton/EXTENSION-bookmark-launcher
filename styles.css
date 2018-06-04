@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 50px;
 }
 div {
   display: flex;
@@ -17,14 +18,15 @@ div {
   justify-content: center;
   text-align: center;
 }
-div:hover {
-  margin: 10px 5px;
-}
 div a {
   text-decoration: none;
 }
+div a:hover {
+  margin-right: 8px;
+  box-shadow: 2px 2px 2px #b5b1b1;
+}
 div img {
-  height: 30px;
+  height: 28px;
 }
 div h6 {
   margin: 0px;
