@@ -13,8 +13,7 @@ body {
 div {
   display: flex;
   flex-direction: column;
-  margin: 8px 5px;
-  padding: 0px;
+  margin: 6px 0px;
   justify-content: center;
   text-align: center;
 }
@@ -28,11 +27,21 @@ div a:hover {
 div img {
   height: 28px;
 }
-div h6 {
+div h5 {
   margin: 0px;
   padding: 0px;
   font-size: 8px;
   color: #000000;
   text-shadow: 1px 1px 1px #b5b1b1;
   font-family: sans-serif;
+}
+div h6 {
+  margin: 5px 0px;
+  padding: 0px;
+}
+div span {
+  font-size: 7px;
+}
+.border-top {
+  border-top: 1px solid #b5b1b1;
 }
