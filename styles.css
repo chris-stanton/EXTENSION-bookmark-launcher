@@ -4,30 +4,32 @@ html {
   padding: 0px;
 }
 body {
-  width: 500px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 div {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 8px 5px;
   padding: 0px;
   justify-content: center;
   text-align: center;
+}
+div:hover {
+  margin: 10px 5px;
 }
 div a {
   text-decoration: none;
 }
 div img {
-  height: 40px;
+  height: 30px;
 }
 div h6 {
   margin: 0px;
   padding: 0px;
-  font-size: 12px;
+  font-size: 8px;
   color: #000000;
   text-shadow: 1px 1px 1px #b5b1b1;
   font-family: sans-serif;
