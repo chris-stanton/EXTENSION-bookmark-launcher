@@ -1,2 +1,2 @@
 
-console.log('scripts.js file sourced correctly!!');
+console.log('scripts file sourced correctly!!');
